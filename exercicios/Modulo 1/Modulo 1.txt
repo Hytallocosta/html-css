@@ -1,0 +1,87 @@
+Tags:
+
+&#x(codigo do emoji);
+
+&lt;(alguma coisa)&gt;
+
+br ( quebra de linha)
+
+hr ( sublinhar)
+
+b = negrtio(forma)
+
+strong = negrito ( significado)
+
+i = italico (forma)
+
+em = italico (significado)
+
+(Atalho: crtl + shift + p)
+
+link: para adicionar fivicon. (head)
+
+img src: adicionar imagens.
+
+mark: marca texto
+
+del = texto deletado
+
+ins = texto sublinhado
+
+u = sublinha ( não semantico)
+
+sup = texto sobrescrito (elevar um numero)
+
+sub = texto subescrito (H2o)
+
+small = texto pequeno
+
+code: organizar palavras (codigo fonte)
+
+pre: pode ser mesclado com (code) para organização
+
+q: aspas e citaçoes simples
+
+blockquote: citações longas e organizadas 
+
+bdo: texto invertido
+
+abbr: usado para para quando você passar o mouse em cima da palavra aparecer seu significado
+
+LISTAS:
+
+ol: lista ordenada ( a ordem faz diferença) para toda (ol) se tem um (li) e tem como colocar type
+
+ul: lista não ordenada ( a ordem não faz diferença) para toda (ul) se tem um (li) e tem como colocar type "disc" "circle"
+"square".
+
+dl: lista de definição (dt): Termo e (dd): descrição
+
+LINKS:
+
+a: Link externo envelopando a palavra que você quer (usa a tag  target="_blank" e
+rel = "external" para que o site seja aberto em uma nova aba.
+
+a: link interno não precisa (usar a tag target="_blank") porem se usa
+rel = "next"  para proxima pagina e "prev" para voltar e "nofollow" para paginas sem meu avall
+
+
+../: para voltar uma pasta ( quando for buscar laguma arquvio)
+
+Picture : colocar um img em formatos e tamanhos diferentes.
+
+source media typer: dentro de picture para criar condições em que a imagem se adapte a largura de tela do seu navegador
+(usa sempre max.) image/png. sempre de cima pra baixo.
+
+audio src: maneira simples de colocar audio no site. (para utilizar se coloca apos a tag audio o parametro controls e autoplay respectivamente.) parametro loop opcional.
+
+audio: usa source src para adicionar mais de um audio de modo que se um não carregar no site tenta o outro. todos parametros de cima são utilizaveis e a checagem do site é sempre feito de cima para baixo.
+
+video src: maneira mais simples de colocar um video a descrição acima também engloba os videos.
+
+video: usa source para adicionar mais de um video de modo que se não carregar no site, tenta o outro. todos
+parametros de cima são utilizaveis e a checagem do site é sempre feito de cima pra baixo. com acrescimo do parametro poster
+
+
+
+

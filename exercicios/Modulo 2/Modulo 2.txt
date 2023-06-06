@@ -1,0 +1,104 @@
+Style: tag para incorporar css dentro do proprio index
+
+backgroud-color: cor de fundo 
+
+color: cor da letra
+
+background-image: linear-gradient: função para degrader de um site. (indicação sempre dos lados primeiros, depois de uma cor até a outra, exemplo: (to right, white, blue) ) dado que.
+
+left: esquerda
+right: direita
+top: cima
+bottom: baixo
+
+*: seletor global das css. para configurar altura. vem acompanhado da tag {}
+
+height: altura
+
+radial-gradient: deixa o degraderem forma de circulo 
+
+box-shadow: Colocar cor sombreada nas bordas do site: dado que
+
+exemplo: (box-shadow: 5px 3px 5px black;)
+
+border-radius: arredondar as bordas 
+
+margin: auto; pata centralizar o texto
+
+text-align: justify; organizar o texto
+
+@charset "UTF-8"; SEMPRE USAR ANTES DE QUALQUER CSS
+
+Font-family: Serve para alterar a fonte do site 
+
+Tamanho de fonte:
+
+Medidas absoutas: cm ,mm ,in ,px ,pt ,pc
+Medidas relativas: em(altura m da fonte), ex(altura x da fonte), rem(relativa a fonte que ta no body), vw(tamanho da tela)
+, %,
+
+Font-weight = peso da fonte ( lighter normal bold bolder) ou numerico de (100 a 900)
+Font-size = tamanho da fonte 
+Font-style = estilo da fonte 
+
+weight: peso
+width: largura
+height: altura
+
+text-decoration: underline: sublinhado
+
+ordem respectiva: font-style - font-weight - font-size - font-family.
+
+Font: (tag para usar a ordem descrita acina)
+
+@font-face: seletor especial das css para o carregamento de fontes externas.
+
+Tipos de format ( usar apos colocar URL no font face:
+
+opentype (otf)
+truetype(ttf)
+embedded-opentype
+truetype-aat (Apple advanced typography)
+svg
+
+text-indent: da o espaço no inicio da frase 
+
+text-align: justify; organizar o texto
+
+SELETORES:
+
+Separar quando tiver mais de um H1: usar a tag id: e seletor "principal
+
+no styles para separ os H1 se usa o simbolo #
+
+ex: H1#principal
+
+Tudo que em HTML é id no CSS é #
+Tudo que em HTML é class no CSS é .
+
+id: só de pode usar uma unica vez no documento
+class: usada para dar estilo a mais de uma forma no html
+
+ex: quando se tem mais de um h1, h2 e etc.
+
+display: inline-block = serve para alinhar blocos 
+
+no CSS : é chamado de psedu-classe e precisa está ligada a um elemento ou uma classe. configuração de estado
+
+pseudoclasse: hover ( quando passar o mouse por cima de alguma coisa 
+
+No CSS: simbolo > significa está dentro de algo exemplo: div > p = paragrafo está dentro da div
+
+div:hover > p {
+     display: block; ( serve para mostrar algo ocultado
+}
+
+display:nome para ocultar um elemento 
+
+pseudoclasse: visited ( para diferenciar links visitados ou não 
+
+pseudoclasse: active ( Quando link for clicado)
+
+pseudoelemento indentificado pelo (::) serve para agir diretamente no conteudo 
+
+pseudoelemento before (antes) after (depois)
